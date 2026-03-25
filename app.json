@@ -1,5 +1,6 @@
 {
   "expo": {
+    "newArchEnabled": false,
     "name": "Grocify",
     "slug": "Grocify",
     "version": "1.0.0",
@@ -25,7 +26,7 @@
       "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
     },
-    "plugins": [
+    "plugins": ["@clerk/expo",
       "expo-router",
       [
         "expo-splash-screen",
