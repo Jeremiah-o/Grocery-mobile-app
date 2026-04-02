@@ -1,6 +1,5 @@
 {
   "expo": {
-    "newArchEnabled": false,
     "name": "Grocify",
     "slug": "Grocify",
     "version": "1.0.0",
@@ -18,15 +17,13 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false,
-      "package": "com.anonymous.Grocify"
+      "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
-      "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
     },
-    "plugins": ["@clerk/expo",
+    "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
